@@ -1,0 +1,326 @@
+/* Add your CSS styles here */
+
+#splash-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #083e50;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+/* Timetable Styles */
+#adults-timetable table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+#adults-timetable th, #adults-timetable td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#adults-timetable th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+#adults-timetable tr:hover {
+  background-color: #f5f5f5;
+}
+
+#adults-timetable td {
+  vertical-align: middle;
+}
+/* Add your other CSS styles here */
+
+.theme-song-accordion {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .accordion-header {
+    background-color: #f1f1f1;
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .accordion-content {
+    padding: 15px;
+    display: none;
+  }
+  
+  .lyrics-window {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+  }
+  
+  .lyrics-window.hidden {
+    display: none;
+  }
+  
+  .btn-show-lyrics, .btn-close-lyrics {
+    display: block;
+    margin-top: 10px;
+  }
+
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #083e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: 0.2s ease;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    color: #083e50;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+
+  /* Main Lists  */
+
+  .modern-list li{
+    padding: 16px;
+    border-bottom: 1px solid #00bfff;
+
+  }
+  .modern-list{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+  }
+
+  .modern-list li:last-child{
+    border-bottom: none;
+  }
+
+ .modern-list a {
+  text-decoration: none;
+  color: #083e50;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;;
+  }
+  .modern-list a:hover {
+  color: #007bff;
+  background-color: #f2f2f2;
+  }
+
+
+  .accordion-item {
+    margin-bottom: 10px;
+  }
+  
+  .accordion-item h2 {
+    
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 10px;
+  }
+  
+  .accordion-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .chorus{
+    font-style: italic;
+  }
+
+  .lesson-items ul{
+    list-style-type:square;
+  }
+  .modern-list-link {
+  text-decoration: none;
+  color: #083e50;
+  font-weight: bold;
+  display: block;;
+}
+
+.active{
+  font-weight: bold;
+  color: #083e50;
+  border-bottom: 2px solid #00bfff;
+}
+
+  /* About Page */
+
+  .about-page {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+
+  }
+
+  .team-member a{
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .app-info {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  .profile-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .profile-info{
+    flex-grow: 1;
+  }
+
+  .profile-info h3{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .team {
+    margin-top: 40px;
+  }
+  
+  .team-member {
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  .teal{
+    color: #083e50;
+  }
+
+  .social-icons a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #083e50; /* Set icon color */
+}
+.social-icons {
+    display: flex;
+    justify-content:left; /* Align center */
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #083e50; /* Adjust color as needed */
+  display: inline-flex;
+  align-items: center;
+}
+
+nav a i {
+  margin-right: 20px; /* Space between icon and text */
+}
+
+.fab-home {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff; /* Button background color */
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  font-size: 24px;
+  z-index: 1000;
+}
+
+.fab-home:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}

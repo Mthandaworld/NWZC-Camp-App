@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="all.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      /* Timetable Styles */
+      width: 100%;
+        margin: 20px auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #083e50;
+      }
+
+      #adults-timetable h2 {
+        text-align: center;
+        color: #083e50;
+        font-size: 24px;
+        margin-bottom: 20px;
+        border-bottom: 2px solid #083e50;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+      }
+
+      #adults-timetable table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+        background-color: #f9f9f9;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      #adults-timetable th,
+      #adults-timetable td {
+        padding: 12px 15px;
+        text-align: center;
+        border: 1px solid #ddd;
+      }
+
+      #adults-timetable th {
+        background-color: #083e50;
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      #adults-timetable tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      #adults-timetable tr:hover {
+        background-color: #e8f4f8;
+      }
+
+      #adults-timetable td {
+        vertical-align: middle;
+      }
+       /* FAB Styles */
+       .fab-home {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #083e50;
+        color: white;
+        padding: 15px;
+        border-radius: 50%;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        text-decoration: none;
+      }
+
+      .fab-home i {
+        font-size: 24px;
+      }
+
+      .fab-home:hover {
+        background-color: #06507e;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+      }
+    </style>
+  </head>
+  <body>
+    <section id="adults-timetable">
+      <h2>Adult Timetable</h2>
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Sabbath</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>0430 - 0500hrs</td>
+            <td>Morning Prayer Band</td>
+            <td>Morning Prayer Band</td>
+            <td>Morning Prayer Band</td>
+            <td>Morning Prayer Band</td>
+            <td>Morning Prayer Band</td>
+            
+          </tr>
+          <tr>
+            <td>0515 - 0600hrs</td>
+            
+            <td>Morning Mana</td>
+            <td>Morning Mana</td>
+            <td>Morning Mana</td>
+            <td>Morning Mana</td>
+            <td>Morning Mana</td>
+          </tr>
+          <td>0600 - 0745hrs</td>
+            
+          <td>Breakfast</td>
+          <td>Breakfast</td>
+          <td>Breakfast</td>
+          <td>Breakfast</td>
+          <td>Breakfast</td>
+        </tr>
+          <tr>
+            <td>0830 - 0910hrs</td>
+            <td>Naturing Session 1</td>
+            <td>Family Life Session 1</td>
+            <td>Self-Reliance Session 1</td>
+            <td>Spiritualism Session 1</td>
+            <td>Revision 40 Mins Per Lesson</td>
+            <td>Sabbath School</td>
+            
+          </tr>
+          <tr>
+            <td>0910 - 0950hrs</td>
+            <td>Naturing Session 2</td>
+            <td>Family Life Session 2</td>
+            <td>Self-Reliance Session 2</td>
+            <td>Spiritualism Session 2</td>
+            <td>Revision 40 Mins Per Lesson</td>
+            <td>Sabbath School</td>
+          </tr>
+          <tr>
+            <td>0950hrs - 1030hrs</td>
+            <td>Naturing Session 3</td>
+            <td>Family Life Session 3</td>
+            <td>Self-Reliance Session 3</td>
+            <td>Spiritualism Session 3</td>
+            <td>Revision 40 Mins Per Lesson</td>
+            <td>Sabbath School</td>
+          </tr>
+          <tr>
+            <td>1030 - 1100hrs</td>
+            <td>Music and announcements</td>
+            <td>Music and announcements</td>
+            <td>Music and announcements</td>
+            <td>Music and announcements</td>
+            <td>Music and announcements</td>
+            <td>Music and announcements</td>
+          </tr>
+          <tr>
+            <td>1100 - 1200hrs</td>
+            <td>Power Hour</td>
+            <td>Power Hour</td>
+            <td>Power Hour</td>
+            <td>Power Hour</td>
+            <td>Power Hour</td>
+            <td>Power Hour</td>
+          </tr>
+          <tr>
+            <td>1200 - 1400hrs</td>
+            <td>Lunch</td>
+            <td>Lunch</td>
+            <td>Lunch</td>
+            <td>Lunch</td>
+            <td>Lunch</td>
+            <td>Lunch</td>
+          </tr>
+          <tr>
+            <td>1420 - 1500hrs</td>
+            <td>Naturing Session 4</td>
+            <td>Family Life Session 4</td>
+            <td>Self-Reliance Session 4</td>
+            <td>Spiritualism Session 4</td>
+            <td>Sabbath Preparations</td>
+          </tr>
+          <tr>
+            <td>1500 - 1540hrs</td>
+            <td>Naturing Session 5</td>
+            <td>Family Life Session 5</td>
+            <td>Self-Reliance Session 5</td>
+            <td>Spiritualism Session 5</td>
+            <td>Sabbath Preparations</td>
+          </tr>
+          <tr>
+            <td>1540 - 1600hrs</td>
+            <td>Prayer Garden</td>
+            <td>Prayer Garden</td>
+            <td>Prayer Garden</td>
+            <td>Prayer Garden</td>
+            
+          </tr>
+          <tr>
+            <td>18:30 - 1900hrs</td>
+            <td>Music And Announcements</td>
+            <td>Music And Announcements</td>
+            <td>Music And Announcements</td>
+            <td>Music And Announcements</td>
+            <td>Music And Announcements</td>
+          </tr>
+          <tr>
+            <td>1900 - 2000hrs</td>
+            <td>Evening Service</td>
+            <td>Evening Service</td>
+            <td>Evening Service</td>
+            <td>Evening Service</td>
+            <td>Evening Service</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <a href="index.html" class="fab-home">
+      <i class="fas fa-home"></i>
+    </a>
+    <script src="all.min.js"></script>
+  </body>
+</html>
